@@ -1,0 +1,24 @@
+# Ignore everything
+*
+
+# Allow directories (so Git can descend into them)
+!*/
+# Explicitly ignore these folders
+optool/
+scattnlay/
+
+
+# Allow main Python files
+!functions.py
+!Disks.py
+!Run_Particle.py
+
+# Allow environment file
+!environment.yml
+!requirements.txt
+
+# Allow README
+!README.md
+
+# Allow .gitignore itself
+!.gitignore
