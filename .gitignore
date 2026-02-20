@@ -6,12 +6,14 @@
 # Explicitly ignore these folders
 optool/
 scattnlay/
+thrash/
 
 
 # Allow main Python files
 !functions.py
 !Disks.py
 !Run_Particle.py
+!example.ipynb
 
 # Allow environment file
 !environment.yml
