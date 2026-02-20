@@ -41,7 +41,6 @@ External dependency:
 
 Notes:
 - The code calls `optool` via `subprocess`. Make sure the `optool` command is available in your environment.
-- There is an `exe` variable set to a local path, but the current implementation uses the string `optool` in command building. Ensure `optool` resolves correctly.
 
 ## Configuration
 
